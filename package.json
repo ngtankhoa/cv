@@ -1,0 +1,28 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "my cv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngtankhoa/cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngtankhoa/cv/issues"
+  },
+  "homepage": "https://github.com/ngtankhoa/cv#readme",
+  "devDependencies": {
+    "git-scripts": "^0.4.3",
+    "surge": "^0.21.3"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain cv-nguyentankhoa.surge.sh"
+    }
+  }
+}
