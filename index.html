@@ -1,141 +1,180 @@
 <!DOCTYPE html>
 <html lang="vi">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Nguyen Tan Khoa's CV</title>
-    <style>
-        .flex-container {
-            display: flex;
-            flex-wrap: wrap;
-            background-color: antiquewhite;
-        }
-
-        .flex-container>div {
-            background-color: #f1f1f1;
-            margin: 5px;
-        }
-
-        .name {
-            font-size: large;
-        }
-
-        .info>h4 {
-            margin-bottom: 0;
-        }
-
-        a {
-            text-decoration: initial;
-        }
-
-        a:link,
-        a:visited,
-        a:link:active,
-        a:visited:active {
-            color: initial;
-        }
-
-        .info>ul {
-            list-style: none;
-        }
-
-        @media only screen and (min-width: 480px) {
-            * {
-                font-size: 1vw;
-            }
-
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>Nguyen Tan Khoa's CV</title>
+        <style>
             .flex-container {
                 display: flex;
+                flex-wrap: wrap;
                 background-color: antiquewhite;
-                flex-wrap: nowrap;
             }
 
-            .name {
-                font-size: initial;
+            .flex-container > div {
+                background-color: #f1f1f1;
+                margin: 5px;
             }
-        }
 
-        @media only screen and (min-width: 992px) {
             .name {
                 font-size: large;
             }
-        }
-    </style>
-</head>
 
-<body>
-    <div class="flex-container">
-        <div style="flex-grow: 2; text-align: center; padding: 15px;">
-            <p class="name" style="text-align: center;  "><strong>NGUYEN TAN KHOA </strong></p>
-            <img src="./ava.jpg" alt="avatar" width="200px" height="auto"
-                style="display: block; margin-left: auto; margin-right: auto;">
-            <div style="display: inline-block; text-align: left;">
-                <p><i class="fas fa-envelope"></i> khoant.uit@gmail.com</p>
-                <p><i class="fas fa-phone-square-alt"></i> 0844150000</p>
-                <p><i class="fab fa-bitbucket"></i>
-                    <a target="_blank" href="https://bitbucket.org/ngtankhoa">bitbucket.org/ngtankhoa</a>
+            .info > h4 {
+                margin-bottom: 0;
+            }
+
+            a {
+                text-decoration: initial;
+            }
+
+            a:link,
+            a:visited,
+            a:link:active,
+            a:visited:active {
+                color: initial;
+            }
+
+            .info > ul {
+                list-style: none;
+            }
+
+            @media only screen and (min-width: 480px) {
+                * {
+                    font-size: 1vw;
+                }
+
+                .flex-container {
+                    display: flex;
+                    background-color: antiquewhite;
+                    flex-wrap: nowrap;
+                }
+
+                .name {
+                    font-size: initial;
+                }
+            }
+
+            @media only screen and (min-width: 992px) {
+                .name {
+                    font-size: large;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <div style="flex-grow: 2; text-align: center; padding: 15px">
+                <p class="name" style="text-align: center">
+                    <strong>NGUYEN TAN KHOA </strong>
                 </p>
-                <p><i class="fab fa-github-square"></i>
-                    <a target="_blank" href="https://github.com/ngtankhoa">github.com/ngtankhoa</a>
-                </p>
-                <p><i class="fas fa-address-card"></i>
-                    <a target="_blank" href="https://cv-nguyentankhoa.surge.sh">cv-nguyentankhoa.surge.sh</a>
-                </p>
+                <img
+                    src="./ava.jpg"
+                    alt="avatar"
+                    width="200px"
+                    height="auto"
+                    style="
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    "
+                />
+                <div style="display: inline-block; text-align: left">
+                    <p><i class="fas fa-envelope"></i> khoant.uit@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 0844150000</p>
+                    <p>
+                        <i class="fab fa-bitbucket"></i>
+                        <a
+                            target="_blank"
+                            href="https://bitbucket.org/ngtankhoa"
+                            >bitbucket.org/ngtankhoa</a
+                        >
+                    </p>
+                    <p>
+                        <i class="fab fa-github-square"></i>
+                        <a target="_blank" href="https://github.com/ngtankhoa"
+                            >github.com/ngtankhoa</a
+                        >
+                    </p>
+                    <p>
+                        <i class="fas fa-address-card"></i>
+                        <a
+                            target="_blank"
+                            href="https://cv-nguyentankhoa.surge.sh"
+                            >cv-nguyentankhoa.surge.sh</a
+                        >
+                    </p>
+                </div>
+            </div>
+            <div style="flex-grow: 8; padding: 10px; text-align: justify">
+                <div class="info">
+                    <h4>Summary</h4>
+                    <hr />
+                    <ul>
+                        <li>Test push to surge</li>
+                        <li>
+                            Junior Web Developer specializing in Back-End web
+                            development. Experienced with HTML, CSS, JavaScript,
+                            SailsJS.
+                        </li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h4>Skill</h4>
+                    <hr />
+                    <ul style="list-style: disc">
+                        <li>HTML, CSS, JavaScript, SailsJS.</li>
+                        <li>
+                            Version control systems (Git) using GitHub,
+                            Bitbucket.
+                        </li>
+                        <li>
+                            Design APIs in accordance with RESTful API
+                            standards.
+                        </li>
+                        <li>Experience working with Linux/Unix systems.</li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h4>Experience</h4>
+                    <hr />
+                    <ul>
+                        <li>
+                            <strong>9/2018 - 9/2019:</strong> Back-End Web
+                            Developer <br />
+                            <i>First Interactive Technology</i>, Phu Nhuan
+                            District.
+                        </li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h4>Education</h4>
+                    <hr />
+                    <ul>
+                        <li>
+                            <strong> 2015 - Current:</strong> <br />
+                            University of Information Technology - UIT. <br />
+                            Major: Computer Network & Communication. <br />
+                            GPA: 7.18.
+                        </li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h4>Hobby</h4>
+                    <hr />
+                    <ul>
+                        <li>League of Legends, walking, music, Linux,...</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div style="flex-grow: 8; padding: 10px; text-align: justify;">
-            <div class="info">
-                <h4>Summary</h4>
-                <hr>
-                <ul>
-                    <li>
-                        Junior Web Developer specializing in Back-End web development. Experienced with HTML, CSS,
-                        JavaScript, SailsJS.
-                    </li>
-                </ul>
-            </div>
-            <div class="info">
-                <h4>Skill</h4>
-                <hr>
-                <ul style="list-style: disc">
-                    <li>HTML, CSS, JavaScript, SailsJS.</li>
-                    <li>Version control systems (Git) using GitHub, Bitbucket.</li>
-                    <li>Design APIs in accordance with RESTful API standards.</li>
-                    <li>Experience working with Linux/Unix systems.</li>
-                </ul>
-            </div>
-            <div class="info">
-                <h4>Experience</h4>
-                <hr>
-                <ul>
-                    <li><strong>9/2018 - 9/2019:</strong> Back-End Web Developer <br> <i>First Interactive
-                            Technology</i>, Phu Nhuan District.
-                    </li>
-                </ul>
-            </div>
-            <div class="info">
-                <h4>Education</h4>
-                <hr>
-                <ul>
-                    <li>
-                        <strong> 2015 - Current:</strong> <br>
-                        University of Information Technology - UIT. <br>
-                        Major: Computer Network & Communication. <br>
-                        GPA: 7.18.
-                    </li>
-                </ul>
-            </div>
-            <div class="info">
-                <h4>Hobby</h4>
-                <hr>
-                <ul>
-                    <li>League of Legends, walking, music, Linux,...</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <script src="https://kit.fontawesome.com/5f372f943b.js" crossorigin="anonymous"></script>
-</body>
-
+        <script
+            src="https://kit.fontawesome.com/5f372f943b.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
